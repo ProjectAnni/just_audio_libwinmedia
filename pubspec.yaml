@@ -17,6 +17,7 @@ dependencies:
   libwinmedia:
     git:
       url: https://github.com/ProjectAnni/libwinmedia.git
+      path: flutter
 
 dev_dependencies:
   flutter_test:
