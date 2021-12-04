@@ -4,6 +4,8 @@ version: 0.0.4
 repository: https://github.com/bdlukaa/just_audio_libwinmedia
 homepage: https://github.com/ryanheise/just_audio
 
+publish_to: none
+
 environment:
   sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.20.0"
@@ -12,8 +14,9 @@ dependencies:
   flutter:
     sdk: flutter
   just_audio_platform_interface: ^4.0.0
-  libwinmedia: ^0.0.7
-  #   path: ../libwinmedia/flutter
+  libwinmedia:
+    git:
+      url: https://github.com/ProjectAnni/libwinmedia.git
 
 dev_dependencies:
   flutter_test:
